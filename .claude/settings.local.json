@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "mcp__obsidian-mcp-tools__create_vault_file"
+    ],
+    "deny": []
+  }
+}
