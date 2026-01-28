@@ -1,0 +1,40 @@
+2026-01-07 19:37:15,631 - trajecsim - ERROR - パラメータファイルが見つかりません: data/input/landed_area.yaml
+Traceback (most recent call last):
+  File "c:\P\TrajecSimu\src\main.py", line 144, in main
+    params = load_yaml_parameters(config_file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\P\TrajecSimu\src\trajecsim\jsbsim_support\param_generator\yaml_loader.py", line 29, in load_yaml_parameters
+    raise FileNotFoundError(yaml_path)
+FileNotFoundError: data\input\landed_area.yaml
+2026-01-07 19:37:28,101 - trajecsim - ERROR - パラメータファイルが見つかりません: data/input/landed_area.yaml
+Traceback (most recent call last):
+  File "c:\P\TrajecSimu\src\main.py", line 144, in main
+    params = load_yaml_parameters(config_file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\P\TrajecSimu\src\trajecsim\jsbsim_support\param_generator\yaml_loader.py", line 29, in load_yaml_parameters
+    raise FileNotFoundError(yaml_path)
+FileNotFoundError: data\input\landed_area.yaml
+2026-01-07 19:37:49,828 - trajecsim - ERROR - パラメータファイルが見つかりません: data/input/landed_area.yaml
+Traceback (most recent call last):
+  File "c:\P\TrajecSimu\src\main.py", line 144, in main
+    params = load_yaml_parameters(config_file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\P\TrajecSimu\src\trajecsim\jsbsim_support\param_generator\yaml_loader.py", line 29, in load_yaml_parameters
+    raise FileNotFoundError(yaml_path)
+FileNotFoundError: data\input\landed_area.yaml
+2026-01-16 23:26:17,431 - trajecsim - ERROR - パラメータファイルが見つかりません: data/input/landed_area.yaml
+Traceback (most recent call last):
+  File "c:\P\TrajecSimu\src\main.py", line 144, in main
+    params = load_yaml_parameters(config_file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\P\TrajecSimu\src\trajecsim\jsbsim_support\param_generator\yaml_loader.py", line 29, in load_yaml_parameters
+    raise FileNotFoundError(yaml_path)
+FileNotFoundError: data\input\landed_area.yaml
+2026-01-16 23:26:49,398 - trajecsim - ERROR - パラメータファイルが見つかりません: data/input/landed_area.yaml
+Traceback (most recent call last):
+  File "c:\P\TrajecSimu\src\main.py", line 144, in main
+    params = load_yaml_parameters(config_file_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\P\TrajecSimu\src\trajecsim\jsbsim_support\param_generator\yaml_loader.py", line 29, in load_yaml_parameters
+    raise FileNotFoundError(yaml_path)
+FileNotFoundError: data\input\landed_area.yaml

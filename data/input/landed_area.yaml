@@ -1,0 +1,132 @@
+#2026USE 0128編集
+launch:
+  # Liftoff configuration
+  yaw:
+    - 120 # ランチャ方位角 127.25 - 内之浦磁気偏角 7.25
+  pitch:
+    - 70.0
+  roll: 0.0
+  latitude: 31.222216 # 緯度
+  longitude: 131.010392 # 経度
+  elevation: 3 # ランチャ標高
+  launcher_length: 5.0 # ランチャ長さ
+  wind_ref_altitude: 2.0
+  ground_wind_dir:
+    - 23.7
+    - 68.7
+    - 113.7
+    - 158.7
+    - 203.7
+    - 248.7
+    - 293.7
+    - 338.7
+
+  ground_wind_speed:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+
+  wind_power_factor: 0.16666 # べき指数 1/6
+  winds_table:
+  range_kmz: data/input/落下可能域_251229.kml
+
+rocket:
+  # Rocket configuration
+  projected_frontal_area: 0.01075131 # 代表面積 (π*(r/2)^2)
+  wing_span: 0.26 # 半スパン*2 0.24
+  wing_chord: 0.11 # 平均コード長 (Cr+Ct)/2　m0.090
+
+  # Inertia parameters
+  inertia_xx: 0.01842 # ロール軸慣性モーメント
+  inertia_yy: 1.732 # ヨー軸慣性モーメント
+  inertia_zz: 1.732 # ピッチ軸慣性モーメント
+  inertia_xy: 0.0
+  inertia_xz: 0.0
+  inertia_yz: 0.0
+
+  # Mass parameters
+  dry_weight: 8.178 # 機体乾燥重量 8.677829
+  cg_x: 1.108 # 重心位置(ノーズから)m 1.0426
+  cg_y: 0.0
+  cg_z: 0.0
+
+  cp_x: 1.298 # 空力中心(ノーズから)m 1.2744
+  cp_mach_table: "data/input/tables/cp_mach.csv"
+  cp_y: 0.0
+  cp_z: 0.0
+
+  diameter: 0.117 # 直径m
+  height: 1.66135 # 全長m
+
+  # Tank parameters
+  tank_x: 1.137 # 酸化剤タンク重心位置(ノーズから)mm
+  tank_y: 0.0
+  tank_z: 0.0
+  tank_drain_x: 1.26697 # タンク口金位置(ノーズから)m
+  tank_drain_y: 0.0
+  tank_drain_z: 0.0
+  tank_radius: 0.075 # 酸化剤タンク半径: 設計担当に聞いて
+  tank_capacity: 0.480 # 酸化剤タンク容量
+  tank_density: 0.814 # 酸化剤密度
+
+  # Fuel parameters
+  fuel_x: 1.2559 # 燃料重心位置(ノーズから)m
+  fuel_y: 0.0
+  fuel_z: 0.0
+  fuel_drain_x: 1.66135 # 燃料排水口位置(ノーズから)機体後端
+  fuel_drain_y: 0.0
+  fuel_drain_z: 0.0
+  fuel_radius: 0.03 # 燃料半径: 設計担当に聞いて
+  fuel_capacity: 0.229 # 燃焼前燃料質量
+  fuel_density: 1.0
+  fuel_length: 100
+  fuel_after_burn: 0.137658 # 燃焼後燃料質量
+
+  # Parachute parameters
+  parachute_full_deploy_time: 3.0
+  parachute_area: # パラシュート面積: 設計担当に聞いて
+  terminal_velocity: # 終端速度: 指定すると自動的にパラシュート面積が出る
+    - 0.0
+    - 25.0
+
+  parachute_drag_coefficient: 1.2
+
+  # Thrust parameters
+  thruster_x: 1.66135 # エンジン重心位置(機体後端)
+  thruster_y: 0.0
+  thruster_z: 0.0
+
+  # Aerodynamic coefficients
+  lift_coefficient_alpha: 10.99 # よう力傾斜
+  side_coefficient_beta: 10.99
+  roll_damping_coefficient: -0.08715 # ロール減衰係数
+  pitch_damping_coefficient: -0.396 # ピッチ・ヨー減衰係数
+  pitch_coefficient_alpha: 0.0 # ピッチ傾斜
+
+  # Table paths
+  fuel_remaining_table:
+  thrust_table: "data/input/tables/thrust_20251221.csv" #推力履歴
+  cd0_table: "data/input/tables/cd0.csv" #迎え⾓に対する抗⼒係数
+  cdmach_table: "data/input/tables/cdmach.csv"
+  cnmach_table: "data/input/tables/cnmach.csv"
+  csmach_table: "data/input/tables/cnmach.csv"
+
+simulation:
+  # Simulation configuration
+  flight_duration: 4000.0
+  time_step: 0.001
+  parachute_deploy_delay: 0.01
+  notify_interval: 5.0
+  output_rate: 10
+  apogee_mode: 0
+misc:
+  kml_group_by:
+    - ground_wind_speed
+  result_each:
+    - terminal_velocity
+  landing_range_script: noshiro_sea

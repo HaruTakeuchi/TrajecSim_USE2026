@@ -182,9 +182,5 @@ cython_debug/
 .cursorindexingignore
 
 
-data/**
-!data/input/*
-!data/input/landed_area.yaml
-data/result/*
 .idea/*
 temp/*

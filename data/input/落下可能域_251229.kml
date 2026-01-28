@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>落下可能域_251229.kml</name>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>落下可能域</name>
+		<open>1</open>
+		<Placemark>
+			<name>射点</name>
+			<LookAt>
+				<longitude>131.0104798513335</longitude>
+				<latitude>31.22243858470494</latitude>
+				<altitude>0</altitude>
+				<heading>-2.38790325736386</heading>
+				<tilt>22.86245260211675</tilt>
+				<range>854.7429695613705</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>131.0103919939423,31.22221933696331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>本部(仮)</name>
+			<LookAt>
+				<longitude>131.0091974086583</longitude>
+				<latitude>31.22108898023755</latitude>
+				<altitude>0</altitude>
+				<heading>-4.043222866196336</heading>
+				<tilt>24.13088212360072</tilt>
+				<range>581.9925753205009</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>131.0085608684263,31.22071525893277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>点火点(仮)</name>
+			<LookAt>
+				<longitude>131.009889858749</longitude>
+				<latitude>31.22176038639015</latitude>
+				<altitude>0</altitude>
+				<heading>8.373635364806363</heading>
+				<tilt>28.56522529490902</tilt>
+				<range>146.2964445789646</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>131.0094737890175,31.22171209027969,0</coordinates>
+			</Point>
+		</Placemark>
+		<Document>
+			<name>落下可能域案3_1000m.kml</name>
+			<open>1</open>
+			<Style id="inline0">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Style id="inline00">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>660000ff</color>
+					<outline>0</outline>
+				</PolyStyle>
+			</Style>
+			<Style id="inline1">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Style id="inline10">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>660000ff</color>
+					<outline>0</outline>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="inline2">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#inline1</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#inline0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="inline5">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#inline10</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#inline00</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Placemark>
+				<name>円測定</name>
+				<styleUrl>#inline2</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						131.0291517368378,31.21424239368666,-7.081154781429788e-10 131.0287669764915,31.2135295627305,-7.081154781429788e-10 131.0283110434235,31.21284812246567,0 131.0277874085669,31.21220325833107,0 131.0272000577927,31.2115998773356,0 131.0265534615552,31.211042570737,0 131.0258525408571,31.21053557912501,0 131.025102629798,31.21008276017373,0 131.0243094349882,31.2096875593079,0 131.0234789921385,31.20935298350539,0 131.0226176201548,31.2090815784348,-7.081154781429788e-10 131.0217318730851,31.20887540910122,-7.081154781429788e-10 131.020828490286,31.20873604414708,0 131.019914345184,31.20866454392693,-7.081154781429788e-10 131.0189963930205,31.20866145244646,0 131.0180816179783,31.20872679322703,0 131.0171769800881,31.20886006912678,0 131.0162893623171,31.20906026611999,0 131.0154255182435,31.20932586100576,0 131.0145920207097,31.20965483298774,0 131.0137952118453,31.21004467903719,0 131.013041154839,31.2104924329229,-7.081154781429788e-10 131.0123355878252,31.21099468776382,0 131.0116838802338,31.21154762193316,0 131.0110909919367,31.21214702811801,0 131.010561435501,31.21278834531365,0 131.0100992418355,31.21346669351015,-7.081154781429788e-10 131.0097079294928,31.21417691080773,0 131.0093904778613,31.21491359267962,0 131.0091493044519,31.21567113308371,0 131.0089862464534,31.21644376711125,-7.081154781429788e-10 131.0089025466982,31.21722561484808,-7.081154781429788e-10 131.0088988441472,31.21801072611534,0 131.0089751689672,31.21879312574927,0 131.0091309422414,31.21956685907545,-7.081154781429788e-10 131.0093649803151,31.22032603723187,0 131.0096755037476,31.22106488199527,0 131.0100601508022,31.22177776976966,0 131.0105159953732,31.22245927440171,0 131.0110395692169,31.22310420849676,0 131.0116268883155,31.22370766292018,0 131.0122734831778,31.22426504418316,0 131.0129744328425,31.22477210942735,0 131.0137244023301,31.22522499874133,0 131.0145176832548,31.22562026456245,0 131.0153482372892,31.2259548979392,0 131.0162097421494,31.22622635145363,0 131.0170956397496,31.22643255862869,0 131.0179991861596,31.22657194967216,0 131.0189135029818,31.22664346343678,-7.081154781429788e-10 131.0198316297572,31.22664655550532,0 131.0207465769971,31.22658120233857,-7.081154781429788e-10 131.0216513794392,31.22644790145467,0 131.022539149116,31.22624766763854,-7.081154781429788e-10 131.0234031278339,31.22598202520991,0 131.0242367386596,31.2256529964097,0 131.0250336360209,31.22526308599302,0 131.0257877540402,31.22481526214685,-7.081154781429788e-10 131.0264933527293,31.22431293387798,0 131.027145061696,31.22375992504426,0 131.0277379210265,31.22316044522721,0 131.0282674190338,31.22251905766886,0 131.0287295265843,31.22184064451709,0 131.0291207277423,31.22113036964526,0 131.0294380464975,31.22039363932954,0 131.0296790693762,31.21963606108398,0 131.0298419637637,31.21886340096713,0 131.0299254917987,31.21808153968584,0 131.0299290197379,31.2172964278305,0 131.0298525227201,31.21651404058279,-7.081154781429788e-10 131.0296965848943,31.21574033224073,-7.081154781429788e-10 131.0294623949147,31.21498119090722,0 131.0291517368378,31.21424239368666,-7.081154781429788e-10 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Document>
+				<name>堤防線.kml</name>
+				<Style id="inline01">
+					<LineStyle>
+						<color>ff0000ff</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<Style id="inline11">
+					<LineStyle>
+						<color>ff0000ff</color>
+						<width>2</width>
+					</LineStyle>
+				</Style>
+				<StyleMap id="inline6">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#inline11</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#inline01</styleUrl>
+					</Pair>
+				</StyleMap>
+				<Placemark>
+					<name>堤防線</name>
+					<styleUrl>#inline6</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							131.007369941829,31.21629769859106,0 131.0177426738809,31.22763445864216,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Document>
+			<Document>
+				<name>円中心座標.kml</name>
+				<StyleMap id="m_ylw-pushpin">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#s_ylw-pushpin</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+					</Pair>
+				</StyleMap>
+				<Style id="s_ylw-pushpin">
+					<IconStyle>
+						<scale>1.1</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+				</Style>
+				<Style id="s_ylw-pushpin_hl">
+					<IconStyle>
+						<scale>1.3</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+				</Style>
+				<Placemark>
+					<name>Center</name>
+					<LookAt>
+						<longitude>131.0213620546913</longitude>
+						<latitude>31.21795438288763</latitude>
+						<altitude>0</altitude>
+						<heading>-0.4299077914494056</heading>
+						<tilt>23.80048513405619</tilt>
+						<range>2846.985646992281</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>131.0193886097644,31.21758855171748,0</coordinates>
+					</Point>
+				</Placemark>
+			</Document>
+			<Placemark>
+				<name>落下可能域案3_1000m</name>
+				<styleUrl>#inline5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								131.0088450860357,31.21798307745134,0 131.0167077507446,31.22640440615766,0 131.0190605352584,31.22669442383469,0 131.0211962201174,31.22646850907647,0 131.0231653659661,31.22611478191628,0 131.0248978135403,31.22543576294845,0 131.0261509289589,31.22460572790507,0 131.0276289368889,31.22333075698942,0 131.0284664987949,31.22216210257072,0 131.0294511013492,31.22042738309637,0 131.0298282246972,31.21891696621891,0 131.0299234952999,31.2170781587697,0 131.0296307534822,31.21551850191076,0 131.0289477259802,31.2138149284942,0 131.0281470797825,31.21283338595843,0 131.0270648390242,31.21152372076568,0 131.0259851009106,31.21063724800592,0 131.0237645548705,31.2094750762115,0 131.0221445259868,31.20904887641096,0 131.0202902350877,31.20872081909602,0 131.0183086393614,31.20876767959199,0 131.015831543012,31.20927757547873,0 131.0135355101524,31.21022312176569,0 131.0120575102262,31.21107487992119,0 131.0111474378739,31.21208352623584,0 131.010270404678,31.21320975907833,0 131.0097768589864,31.2140952933307,0 131.0092079168544,31.21528253442346,0 131.0090031531406,31.21641980114158,0 131.0088463065115,31.21714591918202,0 131.0088450860357,31.21798307745134,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Document>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>
