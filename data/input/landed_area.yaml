@@ -37,62 +37,62 @@ launch:
 
 rocket:
   # Rocket configuration
-  projected_frontal_area: 0.01075131 # 代表面積 (π*(r/2)^2)
-  wing_span: 0.26 # 半スパン*2 0.24
-  wing_chord: 0.11 # 平均コード長 (Cr+Ct)/2　m0.090
+  projected_frontal_area: 0.01075131 # 代表面積 (π*(r/2)^2) 1/28
+  wing_span: 0.24 # 半スパンx2=0.24 1/28
+  wing_chord: 0.105 # 平均コード長 (Cr+Ct)/2　(120+90)/2 1/28
 
   # Inertia parameters
-  inertia_xx: 0.01842 # ロール軸慣性モーメント
-  inertia_yy: 1.732 # ヨー軸慣性モーメント
-  inertia_zz: 1.732 # ピッチ軸慣性モーメント
+  inertia_xx: 0.01842 # ロール軸慣性モーメント 1/28
+  inertia_yy: 1.732 # ヨー軸慣性モーメント 1/28
+  inertia_zz: 1.732 # ピッチ軸慣性モーメント 1/28
   inertia_xy: 0.0
   inertia_xz: 0.0
   inertia_yz: 0.0
 
   # Mass parameters
-  dry_weight: 8.178 # 機体乾燥重量 8.677829
-  cg_x: 1.108 # 重心位置(ノーズから)m 1.0426
+  dry_weight: 8.567 # 機体乾燥重量 8.567 1/28
+  cg_x: 1.047 # 重心位置(ノーズから)m 1.0426 1/28
   cg_y: 0.0
   cg_z: 0.0
 
-  cp_x: 1.298 # 空力中心(ノーズから)m 1.2744
-  cp_mach_table: "data/input/tables/cp_mach.csv"
+  cp_x: 1.274 # 空力中心(ノーズから)m 1.2744 1/28
+  cp_mach_table: "data/input/tables/cp_mach.csv" # 1/28
   cp_y: 0.0
   cp_z: 0.0
 
-  diameter: 0.117 # 直径m
-  height: 1.66135 # 全長m
+  diameter: 0.117 # 直径m 1/28
+  height: 1.661 # 全長m 1/28
 
   # Tank parameters
-  tank_x: 1.137 # 酸化剤タンク重心位置(ノーズから)mm
+  tank_x: 1.1507 # 酸化剤タンク重心位置(ノーズから)mm 1/28
   tank_y: 0.0
   tank_z: 0.0
-  tank_drain_x: 1.26697 # タンク口金位置(ノーズから)m
+  tank_drain_x: 1.26662 # タンク口金位置(ノーズから)m 1/28
   tank_drain_y: 0.0
   tank_drain_z: 0.0
-  tank_radius: 0.075 # 酸化剤タンク半径: 設計担当に聞いて
-  tank_capacity: 0.480 # 酸化剤タンク容量
-  tank_density: 0.814 # 酸化剤密度
+  tank_radius: 0.075 # 酸化剤タンク半径: 設計担当に聞いて 1/28
+  tank_capacity: 0.480 # 酸化剤タンク容量 1/28
+  tank_density: 0.814 # 酸化剤密度 1/28
 
   # Fuel parameters
-  fuel_x: 1.2559 # 燃料重心位置(ノーズから)m
+  fuel_x: 1.41112 # 燃料重心位置(ノーズから)m 1/28
   fuel_y: 0.0
   fuel_z: 0.0
-  fuel_drain_x: 1.66135 # 燃料排水口位置(ノーズから)機体後端
+  fuel_drain_x: 1.661 # 燃料排水口位置(ノーズから)機体後端 1/28
   fuel_drain_y: 0.0
   fuel_drain_z: 0.0
-  fuel_radius: 0.03 # 燃料半径: 設計担当に聞いて
-  fuel_capacity: 0.229 # 燃焼前燃料質量
+  fuel_radius: 0.03 # 燃料半径: 設計担当に聞いて 1/28
+  fuel_capacity: 0.230 # 燃焼前燃料質量 1/28
   fuel_density: 1.0
   fuel_length: 100
-  fuel_after_burn: 0.137658 # 燃焼後燃料質量
+  fuel_after_burn: 0.138 # 燃焼後燃料質量 1/28
 
   # Parachute parameters
   parachute_full_deploy_time: 3.0
   parachute_area: # パラシュート面積: 設計担当に聞いて
   terminal_velocity: # 終端速度: 指定すると自動的にパラシュート面積が出る
     - 0.0
-    - 25.0
+    - 30.0
 
   parachute_drag_coefficient: 1.2
 
@@ -104,8 +104,8 @@ rocket:
   # Aerodynamic coefficients
   lift_coefficient_alpha: 10.99 # よう力傾斜
   side_coefficient_beta: 10.99
-  roll_damping_coefficient: -0.08715 # ロール減衰係数
-  pitch_damping_coefficient: -0.396 # ピッチ・ヨー減衰係数
+  roll_damping_coefficient: -0.08715 # ロール減衰係数 1/28
+  pitch_damping_coefficient: -0.4105 # ピッチ・ヨー減衰係数 1/28
   pitch_coefficient_alpha: 0.0 # ピッチ傾斜
 
   # Table paths
