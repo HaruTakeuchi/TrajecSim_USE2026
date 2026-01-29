@@ -12,14 +12,14 @@ launch:
   launcher_length: 5.0 # ランチャ長さ
   wind_ref_altitude: 2.0
   ground_wind_dir:
-    - 23.7
-    - 68.7
-    - 113.7
-    - 158.7
-    - 203.7
-    - 248.7
-    - 293.7
-    - 338.7
+    - 30
+    - 75
+    - 120
+    - 165
+    - 210
+    - 255
+    - 300
+    - 345
 
   ground_wind_speed:
     - 1
@@ -97,7 +97,7 @@ rocket:
   parachute_drag_coefficient: 1.2
 
   # Thrust parameters
-  thruster_x: 1.66135 # エンジン重心位置(機体後端)
+  thruster_x: 1.66135 # エンジン重心位置(機体後端) 1/28
   thruster_y: 0.0
   thruster_z: 0.0
 
