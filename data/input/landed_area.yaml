@@ -12,10 +12,24 @@ launch:
   launcher_length: 5.0 # ランチャ長さ
   wind_ref_altitude: 2.0
   ground_wind_dir:
+    - 30
+    - 75
+    - 120
+    - 165
+    - 210
+    - 255
     - 300
+    - 345
 
   ground_wind_speed:
-    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
 
   wind_power_factor: 0.16666 # べき指数 1/6
   winds_table:
@@ -28,16 +42,16 @@ rocket:
   wing_chord: 0.105 # 平均コード長 (Cr+Ct)/2　(120+90)/2 1/28
 
   # Inertia parameters
-  inertia_xx: 0.01842 # ロール軸慣性モーメント 1/28
-  inertia_yy: 1.732 # ヨー軸慣性モーメント 1/28
-  inertia_zz: 1.732 # ピッチ軸慣性モーメント 1/28
+  inertia_xx: 0.01809 # ロール軸慣性モーメント 2/13
+  inertia_yy: 1.884 # ヨー軸慣性モーメント 2/13
+  inertia_zz: 1.884 # ピッチ軸慣性モーメント 2/13
   inertia_xy: 0.0
   inertia_xz: 0.0
   inertia_yz: 0.0
 
   # Mass parameters
-  dry_weight: 8.567 # 機体乾燥重量 8.567 1/28
-  cg_x: 1.047 # 重心位置(ノーズから)m 1.0426 1/28
+  dry_weight: 9.140 # 機体乾燥重量 8.567 1/28
+  cg_x: 1.015 # 重心位置(ノーズから)m 1.015 1/28
   cg_y: 0.0
   cg_z: 0.0
 
@@ -47,7 +61,7 @@ rocket:
   cp_z: 0.0
 
   diameter: 0.117 # 直径m 1/28
-  height: 1.661 # 全長m 1/28
+  height: 1.656 # 全長m 2/13
 
   # Tank parameters
   tank_x: 1.1507 # 酸化剤タンク重心位置(ノーズから)mm 1/28
@@ -70,14 +84,15 @@ rocket:
   fuel_radius: 0.03 # 燃料半径: 設計担当に聞いて 1/28
   fuel_capacity: 0.230 # 燃焼前燃料質量 1/28
   fuel_density: 1.0
-  fuel_length: 100
+  fuel_length: 0.215 #タンク長
   fuel_after_burn: 0.138 # 燃焼後燃料質量 1/28
 
   # Parachute parameters
-  parachute_full_deploy_time: 3.0
+  parachute_full_deploy_time: 0.1
   parachute_area: # パラシュート面積: 設計担当に聞いて
   terminal_velocity: # 終端速度: 指定すると自動的にパラシュート面積が出る
-    - 15.0
+    - 0.0
+    - 15.84
 
   parachute_drag_coefficient: 1.2
 
@@ -89,8 +104,8 @@ rocket:
   # Aerodynamic coefficients
   lift_coefficient_alpha: 10.99 # よう力傾斜
   side_coefficient_beta: 10.99
-  roll_damping_coefficient: -0.08715 # ロール減衰係数 1/28
-  pitch_damping_coefficient: -0.4105 # ピッチ・ヨー減衰係数 1/28
+  roll_damping_coefficient: -0.08116 # ロール減衰係数 1/28
+  pitch_damping_coefficient: -0.4665 # ピッチ・ヨー減衰係数 1/28
   pitch_coefficient_alpha: 0.0 # ピッチ傾斜
 
   # Table paths
@@ -104,8 +119,8 @@ rocket:
 simulation:
   # Simulation configuration
   flight_duration: 4000.0
-  time_step: 0.001
-  parachute_deploy_delay: 3
+  time_step: 0.01
+  parachute_deploy_delay: 2
   notify_interval: 5.0
   output_rate: 10
   apogee_mode: 0
