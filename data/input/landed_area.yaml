@@ -88,7 +88,7 @@ rocket:
   fuel_after_burn: 0.138 # 燃焼後燃料質量 1/28
 
   # Parachute parameters
-  parachute_full_deploy_time: 0.1
+  parachute_full_deploy_time: 2
   parachute_area: # パラシュート面積: 設計担当に聞いて
   terminal_velocity: # 終端速度: 指定すると自動的にパラシュート面積が出る
     - 0.0
@@ -120,7 +120,7 @@ simulation:
   # Simulation configuration
   flight_duration: 4000.0
   time_step: 0.01
-  parachute_deploy_delay: 2
+  parachute_deploy_delay: 1
   notify_interval: 5.0
   output_rate: 10
   apogee_mode: 0
