@@ -4,7 +4,9 @@ launch:
   yaw:
     - 120 # ランチャ方位角 127.25 - 内之浦磁気偏角 7.25
   pitch:
-    - 70.0
+    - 68.0
+    #- 70.0
+    #- 72.0
   roll: 0.0
   latitude: 31.222216 # 緯度
   longitude: 131.010392 # 経度
@@ -22,6 +24,7 @@ launch:
     - 345
 
   ground_wind_speed:
+    #- 0
     - 1
     - 2
     - 3
@@ -30,7 +33,7 @@ launch:
     - 6
     - 7
     - 8
-    - 9
+    #- 9
 
   wind_power_factor: 0.16666 # べき指数 1/6
   winds_table:
@@ -56,7 +59,7 @@ rocket:
   cg_y: 0.0
   cg_z: 0.0
 
-  cp_x: 1.274 # 空力中心(ノーズから)m 1.2744 1/28
+  cp_x: 1.274 # 空力中心(ノーズから)m 1.2744 1/28)(1270)
   cp_mach_table: "data/input/tables/cp_mach.csv" # 1/28
   cp_y: 0.0
   cp_z: 0.0
@@ -85,13 +88,14 @@ rocket:
   fuel_radius: 0.03 # 燃料半径: 設計担当に聞いて 1/28
   fuel_capacity: 0.230 # 燃焼前燃料質量 1/28
   fuel_density: 1.0
-  fuel_length: 0.215 #タンク長
+  fuel_length: 0.215 #タンク長 2/16
   fuel_after_burn: 0.138 # 燃焼後燃料質量 1/28
 
   # Parachute parameters
   parachute_full_deploy_time: 1
   parachute_area: # パラシュート面積: 設計担当に聞いて
   terminal_velocity: # 終端速度: 指定すると自動的にパラシュート面積が出る
+    #- 0.0
     - 21.7
 
   parachute_drag_coefficient: 1.2
@@ -128,5 +132,5 @@ misc:
   kml_group_by:
     - ground_wind_speed
   result_each:
-    - terminal_velocity
+    - pitch
   landing_range_script: noshiro_sea
