@@ -33,7 +33,7 @@ launch:
     - 6
     - 7
     - 8
-    #- 9
+    - 9
 
   wind_power_factor: 0.16666 # べき指数 1/6
   winds_table:
@@ -46,16 +46,16 @@ rocket:
   wing_chord: 0.105 # 平均コード長 (Cr+Ct)/2　(120+90)/2 1/28
 
   # Inertia parameters
-  inertia_xx: 0.01809 # ロール軸慣性モーメント 2/13
-  inertia_yy: 1.884 # ヨー軸慣性モーメント 2/13
-  inertia_zz: 1.884 # ピッチ軸慣性モーメント 2/13
+  inertia_xx: 0.0182 # ロール軸慣性モーメント 2/13
+  inertia_yy: 1.878 # ヨー軸慣性モーメント 3/2
+  inertia_zz: 1.878 # ピッチ軸慣性モーメント 3/2
   inertia_xy: 0.0
   inertia_xz: 0.0
   inertia_yz: 0.0
 
   # Mass parameters
-  dry_weight: 9.140 # 機体乾燥重量 8.567 1/28
-  cg_x: 1.015 # 重心位置(ノーズから)m 1.015 1/28
+  dry_weight: 9.16 # 機体乾燥重量 9.16 3/2
+  cg_x: 1.030 # 重心位置(ノーズから)m 1.030 3/2
   cg_y: 0.0
   cg_z: 0.0
 
@@ -64,7 +64,7 @@ rocket:
   cp_y: 0.0
   cp_z: 0.0
 
-  diameter: 0.117 # 直径m 1/28
+  diameter: 0.118 # 直径m 3/2
   height: 1.656 # 全長m 2/13
 
   # Tank parameters
@@ -95,8 +95,8 @@ rocket:
   parachute_full_deploy_time: 1
   parachute_area: # パラシュート面積: 設計担当に聞いて
   terminal_velocity: # 終端速度: 指定すると自動的にパラシュート面積が出る
-    #- 0.0
-    - 21.7
+    - 0.0
+    - 21.9
 
   parachute_drag_coefficient: 1.2
 
@@ -108,8 +108,8 @@ rocket:
   # Aerodynamic coefficients
   lift_coefficient_alpha: 10.99 # よう力傾斜
   side_coefficient_beta: 10.99
-  roll_damping_coefficient: -0.08116 # ロール減衰係数 1/28
-  pitch_damping_coefficient: -0.4665 # ピッチ・ヨー減衰係数 1/28
+  roll_damping_coefficient: -0.08717 # ロール減衰係数 3/2
+  pitch_damping_coefficient: -0.4501 # ピッチ・ヨー減衰係数 1/28
   pitch_coefficient_alpha: 0.0 # ピッチ傾斜
 
   # Table paths
@@ -132,5 +132,5 @@ misc:
   kml_group_by:
     - ground_wind_speed
   result_each:
-    - pitch
+    - terminal_velocity
   landing_range_script: noshiro_sea
