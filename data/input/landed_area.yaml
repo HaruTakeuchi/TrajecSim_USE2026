@@ -2,38 +2,46 @@
 launch:
   # Liftoff configuration
   yaw:
-    - 120 # ランチャ方位角 127.25 - 内之浦磁気偏角 7.25
+    - 130.65 # (ランチャ方位角 127.25 - 内之浦磁気偏角 7.25)
   pitch:
-    - 68.0
+    - 65.0
+    #- 66.0
+    #- 67.0
+    #- 68.0
+    #- 69.0
     #- 70.0
     #- 72.0
   roll: 0.0
-  latitude: 31.222216 # 緯度
-  longitude: 131.010392 # 経度
+  latitude: 31.222200 # 緯度
+  longitude: 131.010000 # 経度
   elevation: 3 # ランチャ標高
   launcher_length: 5.0 # ランチャ長さ
   wind_ref_altitude: 2.0
   ground_wind_dir:
-    - 30
-    - 75
-    - 120
-    - 165
-    - 210
-    - 255
-    - 300
-    - 345
+    #-0
+    #- 30
+    #- 75
+    #- 120
+    #- 165
+    #- 210
+    #- 255
+    #- 300
+    #- 345
+    #- 130.65
+    - 337.5
 
   ground_wind_speed:
     #- 0
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
+    #- 1
+    #- 2
+    #- 3
+    #- 4
+    #- 5
+    #- 6
+    #- 7
+    #- 8
     #- 9
+    - 1.1
 
   wind_power_factor: 0.16666 # べき指数 1/6
   winds_table:
@@ -95,7 +103,7 @@ rocket:
   parachute_full_deploy_time: 1
   parachute_area: # パラシュート面積: 設計担当に聞いて
   terminal_velocity: # 終端速度: 指定すると自動的にパラシュート面積が出る
-    #- 0.0
+    - 0.0
     - 21.9
 
   parachute_drag_coefficient: 1.2

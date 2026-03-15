@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="79">
+        <Style id="82">
+            <IconStyle id="83">
+                <color>ff8070f8</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="84">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Placemark id="81">
+            <name/>
+            <styleUrl>#82</styleUrl>
+            <Point id="80">
+                <coordinates>131.0121754025223,31.219294254812525,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

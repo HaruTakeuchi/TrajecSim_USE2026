@@ -1,221 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="721">
-        <Style id="728">
-            <LineStyle id="729">
+    <Document id="28">
+        <Style id="31">
+            <IconStyle id="32">
                 <color>ff8070f8</color>
                 <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="730">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="33">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
         </Style>
-        <Style id="737">
-            <LineStyle id="738">
-                <color>ff816df7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="739">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Style id="746">
-            <LineStyle id="747">
-                <color>ff826bf7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="748">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Style id="755">
-            <LineStyle id="756">
-                <color>ff8468f7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="757">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Style id="764">
-            <LineStyle id="765">
-                <color>ff8566f7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="766">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Style id="773">
-            <LineStyle id="774">
-                <color>ff8664f7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="775">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Style id="782">
-            <LineStyle id="783">
-                <color>ff8861f7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="784">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Style id="791">
-            <LineStyle id="792">
-                <color>ff895ff7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="793">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Style id="800">
-            <LineStyle id="801">
-                <color>ff8b5df7</color>
-                <colorMode>normal</colorMode>
-                <width>3</width>
-            </LineStyle>
-            <PolyStyle id="802">
-                <colorMode>normal</colorMode>
-                <fill>0</fill>
-                <outline>1</outline>
-            </PolyStyle>
-        </Style>
-        <Placemark id="723">
-            <name>(1.0,)</name>
-            <styleUrl>#728</styleUrl>
-            <Polygon id="722">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="726">
-                        <coordinates>131.01356327771052,31.22049521394812,0.0 131.01357235840172,31.220433529261392,0.0 131.01364339384298,31.22046326977622,0.0 131.01373238770037,31.220563603691414,0.0 131.0137896865856,31.22067955545497,0.0 131.0137845816169,31.220746851310928,0.0 131.01371721562782,31.22072278028846,0.0 131.01362450372352,31.220616750302177,0.0 131.01356327771052,31.22049521394812,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="732">
-            <name>(2.0,)</name>
-            <styleUrl>#737</styleUrl>
-            <Polygon id="731">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="735">
-                        <coordinates>131.0134177760899,31.220409431620723,0.0 131.01344211970354,31.220292272988,0.0 131.0135875956075,31.2203552063908,0.0 131.0137616456007,31.220549007003232,0.0 131.01387137121142,31.22077430455773,0.0 131.0138623601275,31.220913518880856,0.0 131.0137315003931,31.220872828063488,0.0 131.0135418378316,31.220657241703563,0.0 131.0134177760899,31.220409431620723,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="741">
-            <name>(3.0,)</name>
-            <styleUrl>#746</styleUrl>
-            <Polygon id="740">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="744">
-                        <coordinates>131.01325130749953,31.22033102759365,0.0 131.01329935994576,31.22016477730135,0.0 131.01352281749877,31.220261464200327,0.0 131.01377831372045,31.22054066216569,0.0 131.01393415260878,31.220869040853422,0.0 131.0139204863653,31.221082508062988,0.0 131.01372765747735,31.22103478274888,0.0 131.01343575830592,31.220709282302817,0.0 131.01325130749953,31.22033102759365,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="750">
-            <name>(4.0,)</name>
-            <styleUrl>#755</styleUrl>
-            <Polygon id="749">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="753">
-                        <coordinates>131.01306614877916,31.220261867729626,0.0 131.0131467092054,31.22005202712465,0.0 131.0134518451412,31.22018060341975,0.0 131.01378507813948,31.220537230661527,0.0 131.01398064689184,31.22096180333289,0.0 131.01395851493453,31.22125157116677,0.0 131.0137051463984,31.221205939200864,0.0 131.01330309984098,31.220774460370365,0.0 131.01306614877916,31.220261867729626,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="759">
-            <name>(5.0,)</name>
-            <styleUrl>#764</styleUrl>
-            <Polygon id="758">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="762">
-                        <coordinates>131.01286575013546,31.22020359675924,0.0 131.0129884671764,31.219955482603567,0.0 131.01337651216352,31.220112034903067,0.0 131.0137840489326,31.22053767365863,0.0 131.01401248796924,31.22105169300228,0.0 131.0139776302277,31.221416728162385,0.0 131.0136641944336,31.221383030629667,0.0 131.01315080523088,31.220849378026536,0.0 131.01286575013546,31.22020359675924,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="768">
-            <name>(6.0,)</name>
-            <styleUrl>#773</styleUrl>
-            <Polygon id="767">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="771">
-                        <coordinates>131.01265383447,31.220157146240368,0.0 131.01282691246612,31.219874521398328,0.0 131.01329917160268,31.22005294116931,0.0 131.0137777558063,31.220540741499622,0.0 131.0140337640412,31.22113838252355,0.0 131.01397939280992,31.22157670283512,0.0 131.0136056059903,31.22156228532716,0.0 131.01308791733337,31.220879695880924,0.0 131.01265383447,31.220157146240368,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="777">
-            <name>(7.0,)</name>
-            <styleUrl>#782</styleUrl>
-            <Polygon id="776">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="780">
-                        <coordinates>131.01243527574871,31.22012318702804,0.0 131.01266590905175,31.219808448391447,0.0 131.0132209051877,31.22000324048514,0.0 131.0137662249016,31.220546412998644,0.0 131.01404505196498,31.221220819328213,0.0 131.01396583491865,31.22172824057049,0.0 131.01353089341603,31.2217406114787,0.0 131.0129601483601,31.22093863176841,0.0 131.01243527574871,31.22012318702804,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="786">
-            <name>(8.0,)</name>
-            <styleUrl>#791</styleUrl>
-            <Polygon id="785">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="789">
-                        <coordinates>131.012214462157,31.22010153593988,0.0 131.01250758307384,31.219756052256447,0.0 131.01314298987035,31.2199615319876,0.0 131.0137505979414,31.22055411954032,0.0 131.01404883911303,31.22129955065313,0.0 131.01393986803427,31.221871451109,0.0 131.01344273342687,31.221914690631817,0.0 131.01270459393533,31.22109439033381,0.0 131.012214462157,31.22010153593988,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark id="795">
-            <name>(9.0,)</name>
-            <styleUrl>#800</styleUrl>
-            <Polygon id="794">
-                <altitudeMode>clampToGround</altitudeMode>
-                <outerBoundaryIs>
-                    <LinearRing id="798">
-                        <coordinates>131.01199462328316,31.220091520154863,0.0 131.01235341481842,31.21971506098111,0.0 131.01306603413937,31.219926964404024,0.0 131.0137319373962,31.22056334050425,0.0 131.01404543157588,31.22137378608508,0.0 131.0139044190183,31.222005911617263,0.0 131.01334347508717,31.222081428018186,0.0 131.0124654922186,31.221186587336245,0.0 131.01199462328316,31.220091520154863,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
+        <Placemark id="30">
+            <name/>
+            <styleUrl>#31</styleUrl>
+            <Point id="29">
+                <coordinates>131.0133666043214,31.21984338056822,0.0</coordinates>
+            </Point>
         </Placemark>
     </Document>
 </kml>
